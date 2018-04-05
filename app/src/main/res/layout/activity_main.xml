@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/tip_20"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_alignBottom="@+id/tip"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="123dp"
+        android:onClick="tip_20"
+        android:text="@string/_20" />
+
+    <Button
+        android:id="@+id/tip_15"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_alignBottom="@+id/tip"
+        android:layout_toStartOf="@+id/tip_20"
+        android:onClick="tip_15"
+        android:text="@string/_15" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/price"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:text="@string/price"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="84dp"
+        android:ems="10"
+        android:nextFocusForward="@+id/tip"
+        android:inputType="number|numberDecimal"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="62dp"
+        android:text="@string/province"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    <Spinner
+        android:id="@+id/province"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/price"
+        android:layout_marginTop="54dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tip"
+        android:layout_alignStart="@+id/textView2"
+        android:text="@string/tip_rate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    <EditText
+        android:id="@+id/tip"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/province"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:nextFocusForward="@+id/person"/>
+
+    <Button
+        android:id="@+id/person_1"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/price"
+        android:layout_alignTop="@+id/textView8"
+        android:onClick="person_1"
+        android:text="@string/_1" />
+
+    <Button
+        android:id="@+id/person_2"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:layout_alignTop="@+id/person_1"
+        android:layout_toEndOf="@+id/person_1"
+        android:onClick="person_2"
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/person_3"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/tip_20"
+        android:layout_alignTop="@+id/person_1"
+        android:onClick="person_3"
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/tip_10"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:layout_alignBottom="@+id/tip"
+        android:layout_alignStart="@+id/price"
+        android:onClick="tip_10"
+        android:text="@string/_10" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="166dp"
+        android:text="@string/persons"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="316dp"
+        android:layout_height="256dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="203dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:onClick="submit"
+        android:text="@string/submit" />
+
+    <EditText
+        android:id="@+id/person"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tip"
+        android:layout_below="@+id/tip"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+
+</RelativeLayout>

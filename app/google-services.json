@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "273327501782",
+    "firebase_url": "https://price-tax-tip-calculator.firebaseio.com",
+    "project_id": "price-tax-tip-calculator",
+    "storage_bucket": "price-tax-tip-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273327501782:android:716a524f1e00fec5",
+        "android_client_info": {
+          "package_name": "com.kim.pricetaxtipcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273327501782-ih5i572kqb0k0q2439hnishbq5evan61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhBieiRVLoQBAoZcL26S1QSiYdk2LRykA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
