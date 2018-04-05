@@ -1,6 +1,7 @@
 # tax-tip-calculator-android
-### Virtual application [here](https://appetize.io/app/jn1gk2ufax37php9u20nk7f4ag)<br>
-I highly recommend to use mobile keyboard given in virtual machine. If you use computer keyboard enter the input, it might occurs error. <br>
+### Application is available [here](https://appetize.io/app/jn1gk2ufax37php9u20nk7f4ag)<br> 
+If you click here, you can test my application. <br>
+I highly recommend to use mobile keyboard given in virtual machine. If you use computer keyboard enter the input, it might occurs error (And another reason is that since it is virtual machine, I cannot anticipate what unexpected result will be out.). <br>
 <br>
 ![](https://github.com/seungwookim08/tax-tip-calculator-android/blob/master/img/screenshot1.PNG)<br>
 You have options for price, province, tip rate, and how many people (to divide). <br><br>
